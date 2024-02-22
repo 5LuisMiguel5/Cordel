@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 50px;
+    font-family: 'Protest Strike', sans-serif;
+    font-variant: small-caps;
+}
+
+header > p{
+    font-size: 10px;
+    font-family: 'Rubik Mono One', monospace;
+    padding-bottom: 50px;
+}
+
+header > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2em;
+}
+
+section > p{
+    padding-bottom: 1em;
+}
+
+.normal{
+    font-family: 'Nothing You Could Do', cursive;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.imagem1{
+    background-color: blue;
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+}
+
+.imagem1 > p{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-family: 'Nothing You Could Do', cursive;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 400px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+.imagem2{
+    background-color: blue;
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+}
+
+.imagem2 > p{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-family: 'Nothing You Could Do', cursive;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 400px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
